@@ -1,7 +1,7 @@
 # Hello.
 ## Always believes that something wonderful is about to happen.
 - 👋 I'm XiaoBaiBZS, a student from ZJUT in Hangzhou, China.
-- 👀 I’m interested in Codeing.
+- 👀 I’m interested in Coding.
 - 🌱 I’m currently learning `Kotlin`  `Android Studio` and `C`.
 - 📫 How to reach me? You can reach me by e-mail `BaiZhanshuoBZS@qq.com` .
 
