@@ -1,5 +1,5 @@
-# Hello.
-## Always believes that something wonderful is about to happen.
+# Nice to meet you!
+>Always believes that something wonderful is about to happen.
 - 👋 I'm XiaoBaiBZS, a student from ZJUT in Hangzhou, China.
 - 👀 I’m interested in Coding.
 - 🌱 I’m currently learning `Kotlin`  `Android Studio` and `C`.
