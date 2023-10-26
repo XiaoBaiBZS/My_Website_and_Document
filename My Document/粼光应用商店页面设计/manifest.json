@@ -1,0 +1,39 @@
+{
+    "name": "粼光商店 Lite",
+    "short_name": "粼光 Lite",
+    "start_url": "/",
+    "description": "对个人开发者友好的商店",
+    "author": "Jesse205",
+    "scope": "/",
+    "lang": "zh-CN",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose":"maskable"
+        },
+        {
+            "src": "icons/maskable_icon.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose":"maskable"
+        }
+    ]
+}

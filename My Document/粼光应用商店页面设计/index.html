@@ -1,0 +1,267 @@
+<!doctype html>
+<html class="mdui-theme-layout-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- MDUI -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+    <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <title>粼光应用商店</title>
+    <meta name="description" content="不只是一个应用市场•粼光">
+    <meta name="author" content="秋鸽-乔晓啸">
+    <meta name="keywords" content="应用商店, 应用, App store, 秋鸽, 粼光">
+    <!-- Vue -->
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <style>
+        .appcard {
+            padding: 8px 8px;
+            border: 0;
+            border-radius: 8px;
+            /* margin: 8px; */
+            text-decoration: none;
+            /* display: block; */
+        }
+
+        .block {
+            height: 10%;
+        }
+    </style>
+    <style>
+        #search {
+
+            height: 35px;
+            border: 2px;
+            background-color: #FCFCFC;
+            border-radius: 20px;
+            box-shadow: 1px 1px 6px #EDEDED;
+
+            margin-left: 10px;
+            line-height: 35px;
+            align="left"
+            text-align: center
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ECEFF1" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#212121" />
+    <script src="index.js"></script>
+</head>
+
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-theme-primary-blue-grey mdui-theme-accent-blue">
+    <!-- 这是Vue的 -->
+    <div id="app" class="mdui-container">
+        <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
+            <div class="mdui-toolbar mdui-color-theme-50"> <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-drawer="{target: '#drawer', swipe: true}"> <i class="mdui-icon material-icons">menu</i> </a>
+                <span class="mdui-typo-title">粼光应用商店</span> <a class="mdui-typo-headline" href="index.html"></a>
+                <div class="mdui-toolbar-spacer"></div>
+            </div>
+        </header>
+
+
+        <div class="mdui-drawer mdui-drawer-full-height mdui-color-theme-50" id="drawer">
+            <!-- 顶部图片 -->
+            <div class="chtb">
+                <img :src="config?config.drawer.header:null" style="aspect-ratio: 1225/597;width: 100%;" :style="{opacity: config?1:0}">
+            </div>
+
+            <ul class="mdui-list" mdui-collapse="{accordion: true}" style="padding: 8px;">
+                <!-- 侧滑布局 -->
+                <li v-if="config && config.drawer" v-for="item in config.drawer.items" class="mdui-collapse-item mdui-collapse-item">
+                    <a :href="item.href" class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">{{item.icon}}</i>
+                        <div class="mdui-list-item-content">{{item.name}}</div>
+                        <i v-if="item.subItems" class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                    </a>
+                    <ul v-if="item.subItems" class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                        <a v-for="subItem in item.subItems" :href="subItem.href" class="waves-block radius">
+                            <li class="mdui-list-item mdui-ripple" :mdui-dalog="subItem.dialog">{{subItem.name}}</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <br>
+
+      
+        <!--轮播图--!>
+        
+        
+        
+        <style type="text/css">
+        *{
+        /*去除margin和padding避免定位出现干扰*/
+        /*星号代表选择所有元素*/
+        margin:0px;
+        padding: 0px;
+    }
+
+       
+
+        .img1{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .img2{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img3{
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="mdui-card"style="width:100%; height:42.55%;">
+<div >
+    <img class="img-slide img1"style="width:100%; " src="Banner/banner1.png"onclick="window.open('/apps/椒盐音乐.html','_self')" alt="1">
+    <img class="img-slide img2"style="width:100%; " src="Banner/banner2.png"onclick="" alt="2">
+    <img class="img-slide img3"style="width:100%; " src="Banner/banner3.png"onclick="window.open('http://bwcxlg.top','_self')" alt="3">
+</div>
+        </div>
+        
+        
+    <script type="text/javascript">
+    var index=0;
+    //效果
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,3000);
+</script>    
+        
+        
+        
+        
+        
+       
+        <div>
+        
+        
+        <div id="search">
+         
+            <p style=""></p>
+        <button mdui-dialog="{target: '#exampleDialog'}" class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple mdui-text-center"><i class="mdui-icon material-icons">search</i> 搜索应用</button>
+        
+        
+   
+        </div>
+        
+        
+        
+        </div>
+        
+         <div class="mdui-dialog" id="exampleDialog">
+                <div class="mdui-dialog-title">搜索APP</div>
+                <div class="">
+                    <div class="dropdown">
+                        <div id="myDropdown" class="dropdown-content">
+                            <div class="mdui-textfield mdui-textfield-floating-label">
+                                <i class="mdui-icon material-icons">search</i>
+                                <label class="mdui-textfield-label">搜索...</label>
+                                <input type="text" class="mdui-textfield-input" id="myInput" onkeyup="filterFunction()">
+                            </div>
+                            <template v-if="config" v-for="group in config.apps">
+                                <a v-for="item in group.items" :href="item.url?item.url:'app.html?package='+item.packageName" class="mdui-chip mdui-m-l-1">
+                                    <span class="mdui-chip-title">{{item.name}}</span>
+                                </a>
+                           
+                            </template>
+                                
+                        </div>
+                             <br>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        
+            <!-- 应用区域 -->
+        <div v-if="config" v-for="group in config.apps" class="">
+            <h3 class="mdui-m-x-1 mdui-text-center">{{group.name}}</h3>
+            <div class="mdui-card" style="display: flex; flex-wrap:wrap;margin: 8px;" align="center">
+                <div class="mdui-row-xs-4 mdui-row-sm-6 mdui-row-md-8 mdui-row-lg-10 mdui-row-xl-12" style="padding: 8px 16px; width: 100%;">
+                    <a v-for="item in group.items" class="mdui-col appcard mdui-ripple" :href="item.url?item.url:'app.html?package='+item.packageName" target="_self">
+                        <img class="mdui-img-rounded mdui-shadow-1" style="aspect-ratio: 1; width: 80%; border-radius: 8px;margin-bottom: 8px; " :src="item.img">
+                        <p class="mdui-text-color-theme-text" style="margin: 0;height: 32px;overflow: hidden">
+                            {{item.name}}
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdui-fab-wrapper" mdui-fab>
+            <button class="mdui-fab mdui-ripple mdui-color-pink-accent">
+                <i class="mdui-icon material-icons">add</i>
+            </button>
+            <div class="mdui-fab-dial">
+                <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink" mdui-dialog="{target: '#exampleDialog'}">
+                    <i class="mdui-icon material-icons">search</i>
+                </button>
+                <a class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-red" onclick="hd()">
+                    <i class="mdui-icon material-icons">web_asset</i>
+                </a>
+                <a class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-orange" onclick="API()">
+                    <i class="mdui-icon material-icons">chat</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+    <br>
+    <br>
+    <div class="mdui-divider"></div>
+    <footer class="mdui-text-center mdui-color-theme-50 auto-dark">
+        <a href="https://www.rainyun.com/?ref=MjQ1ODk=">
+            <img src="https://app.rainyun.com/img/logo.3dcf7adc.png" width="16%">
+        </a>
+        <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/Jsr9C1asXmEenk3q/quote.js?theme=0&f=12"></script>
+    </footer>
+
+</body>
+
+</html>

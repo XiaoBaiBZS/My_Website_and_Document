@@ -1,0 +1,5 @@
+const 媒体查询 = matchMedia('(prefers-color-scheme: dark)');
+媒体查询.matches && document.body.classList.add('mdui-theme-layout-dark');
+媒体查询.addListener(
+    ({ matches }) => document.body.classList[matches ? 'add' : 'remove']('mdui-theme-layout-dark')
+);

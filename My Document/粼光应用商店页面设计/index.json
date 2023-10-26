@@ -1,0 +1,369 @@
+{
+    "apps": [{
+            "name": "热门应用",
+            "id": "hot",
+            "items": [{
+                    "name": "微箱",
+                    "url": "apps/微箱.html",
+                    "img": "apps/image/微箱.svg"
+                },
+
+                {
+                    "name": "一个函鸽",
+                    "url": "apps/一个函鸽.html",
+                    "img": "apps/image/一个函鸽.svg"
+                },
+                {
+                    "name": "椒盐音乐",
+                    "url": "apps/椒盐音乐.html",
+                    "img": "apps/image/椒盐音乐.png"
+                },
+                {
+                    "name": "简函",
+                    "url": "apps/简函.html",
+                    "img": "apps/image/简函.svg"
+                },
+                {
+                    "name": "文件转存器",
+                    "url": "apps/柯小帆文件转存器.html",
+                    "img": "apps/image/柯小帆文件转存器.svg"
+                },
+                {
+                    "name": "IU浏览器",
+                    "url": "apps/IU浏览器.html",
+                    "img": "apps/image/IU浏览器.svg"
+                },
+                {
+                    "name": "课程时钟",
+                    "url": "apps/课程时钟.html",
+                    "img": "apps/image/课程时钟.svg"
+                }
+            ]
+        },
+        {
+            "name": "实用工具",
+            "id": "a",
+            "items": [{
+                    "name": "微箱",
+                    "url": "apps/微箱.html",
+                    "img": "apps/image/微箱.svg"
+                },
+
+                {
+                    "name": "一个函鸽",
+                    "url": "apps/一个函鸽.html",
+                    "img": "apps/image/一个函鸽.svg"
+                },
+                {
+                    "name": "LBox",
+                    "url": "apps/LBox.html",
+                    "img": "apps/image/LBox.svg"
+                },
+
+                {
+                    "name": "One Tool",
+                    "url": "apps/One Tool.html",
+                    "img": "apps/image/One Tool.svg"
+                },
+                {
+                    "name": "IU浏览器",
+                    "url": "apps/IU浏览器.html",
+                    "img": "apps/image/IU浏览器.svg"
+                },
+
+                {
+                    "name": "J2ME下载",
+                    "url": "apps/J2ME下载.html",
+                    "img": "apps/image/J2ME下载.svg"
+                },
+                {
+                    "name": "ROAM",
+                    "url": "apps/ROAM.html",
+                    "img": "apps/image/ROAM.svg"
+                },
+                {
+                    "name": "悟空盒子",
+                    "url": "apps/悟空盒子.html",
+                    "img": "apps/image/悟空.svg"
+                },
+
+                {
+                    "name": "MT浏览器",
+                    "url": "apps/MT浏览器.html",
+                    "img": "apps/image/MT浏览器.svg"
+                },
+                {
+                    "name": "Unified YueStore",
+                    "url": "apps/Unified YueStore.html",
+                    "img": "apps/image/UYS.svg"
+                },
+
+                {
+                    "name": "海纳云",
+                    "url": "apps/海纳云.html",
+                    "img": "apps/image/海纳云.svg"
+                },
+                {
+                    "name": "柯小帆文件转存器",
+                    "url": "apps/柯小帆文件转存器.html",
+                    "img": "apps/image/柯小帆文件转存器.svg"
+                },
+
+                {
+                    "name": "简函",
+                    "url": "apps/简函.html",
+                    "img": "apps/image/简函.svg"
+                },
+                {
+                    "name": "浅岸",
+                    "url": "apps/浅岸.html",
+                    "img": "apps/image/浅岸.svg"
+                },
+
+                {
+                    "name": "随搜",
+                    "url": "apps/随搜.html",
+                    "img": "apps/image/随搜.svg"
+                },
+                {
+                    "name": "文件管理",
+                    "url": "apps/文件管理.html",
+                    "img": "apps/image/文件管理.svg"
+                },
+
+                {
+                    "name": "轻浏览器",
+                    "url": "apps/轻浏览器.html",
+                    "img": "apps/image/轻浏览器.svg"
+                },
+                {
+                    "name": "晓啸网盘",
+                    "url": "apps/晓啸网盘.html",
+                    "img": "apps/image/晓啸网盘.svg"
+                },
+
+                {
+                    "name": "桌面时钟Lite",
+                    "url": "apps/桌面时钟Lite.html",
+                    "img": "apps/image/桌面时钟lite.svg"
+                },
+                {
+                    "name": "Device Info",
+                    "url": "apps/Device Info.html",
+                    "img": "apps/image/Device Info.svg"
+                },
+                {
+                    "name": "Ntxt阅读器",
+                    "url": "apps/Ntxt小说阅读器.html",
+                    "img": "apps/image/Ntxt小说阅读器.svg"
+                }
+            ]
+        },
+        {
+            "name": "学习工作",
+            "id": "hot",
+            "items": [{
+                    "name": "多文言Duo",
+                    "url": "apps/多文言Duo.html",
+                    "img": "apps/image/多文言.svg"
+                },
+                {
+                    "name": "E测评",
+                    "url": "apps/E测评.html",
+                    "img": "apps/image/E测评.svg"
+                },
+                {
+                    "name": "课程时钟",
+                    "url": "apps/课程时钟.html",
+                    "img": "apps/image/课程时钟.svg"
+                },
+                {
+                    "name": "Maybe",
+                    "url": "apps/Maybe.html",
+                    "img": "apps/image/Maybe.svg"
+                },
+                {
+                    "name": "地理美图",
+                    "url": "apps/地理美图.html",
+                    "img": "apps/image/地理美图.svg"
+                },
+
+                {
+                    "name": "简译",
+                    "url": "apps/简译.html",
+                    "img": "apps/image/简译.svg"
+                },
+                {
+                    "name": "随诗",
+                    "url": "apps/随诗.html",
+                    "img": "apps/image/随诗.svg"
+                },
+                {
+                    "name": "习书阁",
+                    "url": "apps/习书阁.html",
+                    "img": "apps/image/习书阁.svg"
+                },
+                {
+                    "name": "訫笔记",
+                    "url": "apps/訫笔记.html",
+                    "img": "apps/image/訫笔记.svg"
+                },
+                {
+                    "name": "烂笔头",
+                    "url": "apps/烂笔头.html",
+                    "img": "apps/image/烂笔头.svg"
+                }
+            ]
+        },
+        {
+            "name": "休闲娱乐",
+            "id": "hot",
+            "items": [{
+                    "name": "E简·音乐",
+                    "url": "apps/E简·音乐.html",
+                    "img": "apps/image/E简音乐.svg"
+                },
+                {
+                    "name": "轻听",
+                    "url": "apps/轻听.html",
+                    "img": "apps/image/轻听.svg"
+                },
+                {
+                    "name": "躺平发育",
+                    "url": "apps/躺平发育.html",
+                    "img": "apps/image/躺平发育.svg"
+                },
+                {
+                    "name": "AGE Animation",
+                    "url": "apps/AGE Animation.html",
+                    "img": "apps/image/AGE Animation.svg"
+                },
+                {
+                    "name": "勇者",
+                    "url": "apps/勇者.html",
+                    "img": "apps/image/勇者.svg"
+                }
+            ]
+        },
+        {
+            "name": "编程开发",
+            "id": "hot",
+            "items": [{
+                    "name": "Aide Lua Pro",
+                    "url": "apps/Aide Lua Pro.html",
+                    "img": "apps/image/Aide Lua Pro.svg"
+                },
+                  {
+                    "name": "AndroLuaX",
+                    "url": "apps/AndroLuaX.html",
+                    "img": "apps/image/AndroLuaX.svg"
+                },
+                {
+                    "name": "Fusion论坛",
+                    "url": "apps/Fusion论坛.html",
+                    "img": "apps/image/Fusion论坛.svg"
+                },
+                {
+                    "name": "Lua布局助手Pro",
+                    "url": "apps/Lua布局助手Pro.html",
+                    "img": "apps/image/lua布局助手+.svg"
+                },
+               
+                  {
+                    "name": "HopWeb",
+                    "url": "apps/HopWeb.html",
+                    "img": "apps/image/hopweb.png"
+                },
+                 {
+                    "name": "软件加固",
+                    "url": "apps/软件加固.html",
+                    "img": "apps/image/软件加固.svg"
+                },
+                {
+                    "name": "Fusion App",
+                    "url": "apps/Fusion App.html",
+                    "img": "apps/image/FA.png"
+                },
+               {
+                    "name": "Fusion App（64位）",
+                    "url": "apps/Fusion App-64位.html",
+                    "img": "apps/image/FA.png"
+                },
+                {
+                    "name": "Fusion App（重制）",
+                    "url": "apps/Fusion App-重制.html",
+                    "img": "apps/image/FA.png"
+                },
+               {
+                    "name": "Fusion App（V2）",
+                    "url": "apps/Fusion App-V2.html",
+                    "img": "apps/image/FA.png"
+                }
+            ]
+        }
+
+    ],
+    "drawer": {
+        "header": "images/drawerHeader.png",
+        "items": [
+
+
+            {
+                "icon": "insert_comment",
+                "name": "粼光社区",
+                "href": "https://bwcxlg.top"
+
+
+            },
+            {
+                "icon": "cloud_done",
+                "name": "应用提单",
+                "href": "https://jinshuju.net/f/vcoCgZ"
+
+
+            },
+            {
+                "icon": "insert_drive_file",
+                "name": "商店文档",
+                "href": "https://sparkling-store.github.io/docs/"
+            },
+            {
+                "icon": "explore",
+                "name": "关于粼光",
+                "subItems": [{
+                        "name": "获取",
+                        "dialog": "{target: '#download'}",
+                        "href": "https://wds.ecsxs.com/223870.html"
+                    },
+                    {
+                        "name": "官网",
+                        "href": "https://qxiao.rth1.one/yue"
+                    },
+                    {
+                        "name": "社区",
+                        "href": "https://bwcxlg.top"
+                    }
+
+                ]
+            },
+            {
+                "icon": "more",
+                "name": "反馈交流",
+                "subItems": [{
+                        "name": "QQ官方一群",
+                        "href": "https://jq.qq.com/?_wv=1027&k=ENEdMXwI"
+                    },
+                    {
+                        "name": "QQ官方二群",
+                        "href": "https://jq.qq.com/?_wv=1027&k=PECEOdlY"
+                    },
+                    {
+                        "name": "QQ频道",
+                        "href": "https://pd.qq.com/s/avu5s08ka"
+                    }
+                ]
+            }
+
+        ]
+    }
+}
