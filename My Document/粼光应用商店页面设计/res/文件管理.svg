@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-文件管理">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="文件管理" clip-path="url(#clip-文件管理)">
+    <rect width="512" height="512" fill="#40cfa4"/>
+    <g id="组_2" data-name="组 2" transform="translate(-24 -25)">
+      <circle id="椭圆_8" data-name="椭圆 8" cx="78.5" cy="78.5" r="78.5" transform="translate(250 148)" fill="#fff"/>
+      <circle id="椭圆_9" data-name="椭圆 9" cx="48" cy="48" r="48" transform="translate(154 305)" fill="#fff"/>
+      <ellipse id="椭圆_10" data-name="椭圆 10" cx="23" cy="22.5" rx="23" ry="22.5" transform="translate(306 356)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

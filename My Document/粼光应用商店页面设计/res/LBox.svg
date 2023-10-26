@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.203" y1="0.284" x2="0.574" y2="0.57" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0577d0"/>
+      <stop offset="1" stop-color="#0090ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-LBox">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="LBox" clip-path="url(#clip-LBox)">
+    <rect width="512" height="512" fill="#0090ff"/>
+    <path id="联合_3" data-name="联合 3" d="M196.43,453.823l-15.058,15.058-14.3-14.3-27.54,27.54L-33,309.59l27.541-27.541-4.8-4.794L35,232l62.355,62.355,95.91-15.695,21.947-21.639L117.39,159.2,266.59,10l357.8,357.8-124,124,98,98L449.186,739Z" transform="translate(138.999 96)" fill="url(#linear-gradient)"/>
+    <path id="排除_1" data-name="排除 1" d="M267,310H-33V10H267V310ZM35,232v30H190V232Z" transform="translate(139 96)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.786" y1="0.51" x2="-0.251" y2="0.339" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0093d2"/>
+    </linearGradient>
+    <clipPath id="clip-lua布局助手_">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="lua布局助手_" data-name="lua布局助手+" clip-path="url(#clip-lua布局助手_)">
+    <rect width="512" height="512" fill="#fff"/>
+    <path id="路径_118" data-name="路径 118" d="M5.667,31.546,38.563,0,168.114-39.4l231.8-12.376,49.7,325.527L2.892,279l2.98-9.817Z" transform="translate(302.618 161.835) rotate(45)" fill="url(#linear-gradient)"/>
+    <path id="多边形_6" data-name="多边形 6" d="M115.113,4.765a7,7,0,0,1,9.773,0L227.68,104.988A7,7,0,0,1,222.793,117H17.207a7,7,0,0,1-4.887-12.012Z" transform="translate(223 136) rotate(90)" fill="#00b3ff"/>
+    <path id="多边形_7" data-name="多边形 7" d="M147.73,3.287a7,7,0,0,1,8.539,0L287.7,104.453A7,7,0,0,1,283.43,117H20.57a7,7,0,0,1-4.27-12.547Z" transform="translate(282 104) rotate(90)" fill="#00b3ff"/>
+    <path id="多边形_8" data-name="多边形 8" d="M170.432,7.308a7,7,0,0,1,11.136,0l161.866,212.45A7,7,0,0,1,337.866,231H14.134a7,7,0,0,1-5.568-11.242Z" transform="translate(455 80) rotate(90)" fill="#00b3ff"/>
+    <path id="多边形_9" data-name="多边形 9" d="M91.873,4.075a7,7,0,0,1,9.254,0l77.963,68.672A7,7,0,0,1,174.463,85H18.537a7,7,0,0,1-4.627-12.253Z" transform="translate(367 160) rotate(90)" fill="#00b3ff"/>
+    <path id="交叉_5" data-name="交叉 5" d="M-556-2277.487l53.236,54.6a7,7,0,0,1,0,9.773l-53.236,54.6Z" transform="translate(721 2474)" fill="#0090ff"/>
+    <path id="交叉_6" data-name="交叉 6" d="M-556-2269.351l54.714,71.081a7,7,0,0,1,0,8.539L-556-2118.649Z" transform="translate(780 2450)" fill="#0090ff"/>
+    <path id="交叉_7" data-name="交叉 7" d="M-557-2115.537v-155.925a7,7,0,0,1,12.253-4.627l68.672,77.963a7,7,0,0,1,0,9.254l-68.672,77.963a6.836,6.836,0,0,1-5.193,2.387A6.987,6.987,0,0,1-557-2115.537Z" transform="translate(839 2450)" fill="#0090ff"/>
+  </g>
+</svg>

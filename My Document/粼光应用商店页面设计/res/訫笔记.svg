@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.335" y1="0.475" x2="-0.16" y2="0.518" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <clipPath id="clip-訫笔记">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="訫笔记" clip-path="url(#clip-訫笔记)">
+    <rect width="512" height="512"/>
+    <path id="路径_127" data-name="路径 127" d="M0,0,436.559-6.393,397.1,178.259,57.115,179.532,3.132,72.841Z" transform="translate(339.979 163.381) rotate(45)" fill="url(#linear-gradient)"/>
+    <circle id="椭圆_30" data-name="椭圆 30" cx="43" cy="43" r="43" transform="translate(170 152)" fill="#fff"/>
+    <path id="减去_10" data-name="减去 10" d="M-1770-1144a9.01,9.01,0,0,1-9-9,9.01,9.01,0,0,1,9-9,9.114,9.114,0,0,1,1.186.077,5.521,5.521,0,0,0-.186,1.423,5.507,5.507,0,0,0,5.5,5.5,5.466,5.466,0,0,0,2.164-.442A9.018,9.018,0,0,1-1761-1153,9.01,9.01,0,0,1-1770-1144Z" transform="translate(2007 1353)"/>
+    <circle id="椭圆_33" data-name="椭圆 33" cx="43" cy="43" r="43" transform="translate(266 152)" fill="#fff"/>
+    <path id="减去_11" data-name="减去 11" d="M-1770-1144a9.01,9.01,0,0,1-9-9,9.01,9.01,0,0,1,9-9,9.114,9.114,0,0,1,1.186.077,5.521,5.521,0,0,0-.186,1.423,5.507,5.507,0,0,0,5.5,5.5,5.466,5.466,0,0,0,2.164-.442A9.018,9.018,0,0,1-1761-1153,9.01,9.01,0,0,1-1770-1144Z" transform="translate(2100 1353)"/>
+    <ellipse id="椭圆_36" data-name="椭圆 36" cx="47" cy="59.5" rx="47" ry="59.5" transform="translate(215 213)" fill="#ec3a26"/>
+    <ellipse id="椭圆_37" data-name="椭圆 37" cx="25" cy="33" rx="25" ry="33" transform="translate(241 233)"/>
+  </g>
+</svg>
