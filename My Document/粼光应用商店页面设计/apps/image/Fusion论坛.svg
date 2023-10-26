@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.875" y1="0.585" x2="-0.086" y2="0.572" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0090ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#007cdc"/>
+    </linearGradient>
+    <clipPath id="clip-Fusion论坛">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Fusion论坛" clip-path="url(#clip-Fusion论坛)">
+    <rect width="512" height="512" fill="#0090ff"/>
+    <path id="路径_114" data-name="路径 114" d="M1.53,2.481,179.177,0V331l-183.3.684Z" transform="translate(332.792 94.24) rotate(45)" fill="url(#linear-gradient)"/>
+    <path id="路径_115" data-name="路径 115" d="M1.53,2.481,284.122-2l31.322,292.336-358.3.4L76.814,129.864Z" transform="translate(432.792 184.24) rotate(45)" fill="url(#linear-gradient)"/>
+    <g id="组_14" data-name="组 14" transform="translate(-30 -19.001)">
+      <path id="联合_4" data-name="联合 4" d="M-4060-1057v-163a7,7,0,0,1,7-7h226a7,7,0,0,1,7,7v163a7,7,0,0,1-7,7h-152.757l.758.5-81,53.5Z" transform="translate(4185 1341)" fill="#fff"/>
+      <path id="减去_15" data-name="减去 15" d="M-3743-966v0h0l-81-53.5.756-.5H-3976a7.008,7.008,0,0,1-7-7v-47h179v-123h54a7.008,7.008,0,0,1,7,7v224Z" transform="translate(4208 1402)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
