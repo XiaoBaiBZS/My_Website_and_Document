@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- MDUI -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+    <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    <link rel="shortcut icon" href="https://s6.jpg.cm/2022/09/25/Pbysch.jpg" type="image/x-icon">
+    <title>你好呀，我是小白BZS~😘</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <!--   <link rel="stylesheet" type="text/css" href="theme.css">--!>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<script>
+    function activeTab1() {
+        document.getElementById('tabIcon1').classList.add("mdui-color-blue-200");
+        document.getElementById('tabIcon1').style.padding = "4px 24px";
+        document.getElementById('tabIcon2').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon2').style.padding = "4px 4px";
+        document.getElementById('tabIcon3').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon3').style.padding = "4px 4px";
+    }
+
+    function activeTab2() {
+        document.getElementById('tabIcon3').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon3').style.padding = "4px 4px";
+        document.getElementById('tabIcon2').classList.add("mdui-color-blue-200");
+        document.getElementById('tabIcon2').style.padding = "4px 24px";
+        document.getElementById('tabIcon1').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon1').style.padding = "4px 4px";
+    }
+
+    function activeTab3() {
+        document.getElementById('tabIcon3').classList.add("mdui-color-blue-200");
+        document.getElementById('tabIcon3').style.padding = "4px 24px";
+        document.getElementById('tabIcon2').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon2').style.padding = "4px 4px";
+        document.getElementById('tabIcon1').classList.remove("mdui-color-blue-200");
+        document.getElementById('tabIcon1').style.padding = "4px 4px";
+    }
+    activeTab1();
+</script>
+<style>
+.mdui-theme-layout-dark .update-dialog {
+    background-color: rgba(32, 32, 32, 0.9);
+    color: white;
+}
+
+.mdui-theme-layout-dark .update-dialog-btn {
+    background-color: #545454;
+    color: white;
+}
+
+.mdui-theme-layout-dark .update-dialog-btn:hover {
+    background-color: #656565;
+}
+
+.mdui-theme-layout-dark .mdui-tooltip {
+    background-color: rgba(240, 240, 240, 0.9);
+    color: black;
+}
+
+.mdui-theme-layout-dark .mdui-dialog {
+    background-color: #434343 !important;
+    color: white !important;
+}
+
+.mdui-theme-layout-dark .mdui-drawer {
+    background-color: #323232 !important;
+    color: white !important;
+}
+
+.mdui-theme-layout-dark .footerlink {
+    color: white;
+}
+
+.mdui-theme-layout-dark .footerlink:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.mdui-theme-layout-dark .waves-ripple {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.mdui-theme-layout-dark .auto-dark {
+    background-color: #212121 !important;
+    color: white !important;
+}
+
+.mdui-panel-item {
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.mdui-snackbar {
+    width: 66.66%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgba(32, 32, 32, 0.9);
+}
+
+.mdui-tab .toolbar-btn {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mdui-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+@media (min-width: 600px) {
+    .mdui-snackbar {
+        width: auto !important;
+        min-width: 288px !important;
+        max-width: 568px !important;
+    }
+}
+
+.mdui-snackbar-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mdui-theme-layout-dark .mdui-snackbar {
+    background-color: rgba(240, 240, 240, 0.9);
+    color: black;
+}
+
+.mdui-dialog {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    transition-property: transform, opacity, visibility, -webkit-transform, background-color;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.3s, 0.4s;
+}
+
+.mdui-menu {
+    margin: 22px -11px;
+    border-radius: 6px;
+    padding: 3px 0 3px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mdui-menu img {
+    border-radius: 8px;
+}
+
+.mdui-drawer img {
+    border-radius: 0 0 8px 8px;
+}
+
+.mdui-tooltip {
+    border-radius: 20px;
+    background-color: rgba(32, 32, 32, 0.9);
+    transition-property: opacity, transform, -webkit-transform, background-color, color;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.4s, 0.4s;
+}
+
+@keyframes card {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.mdui-card {
+    border-radius: 12px;
+    animation-name: card;
+    animation-duration: 0.7s;
+}
+
+@keyframes toleft {
+    from {
+        transform: translateX(32px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes toright {
+    from {
+        transform: translateX(-32px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.toleft {
+    animation-name: toleft;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    transform: translateX(32px);
+    opacity: 0;
+}
+
+.toright {
+    animation-name: toright;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    transform: translateX(-32px);
+    opacity: 0;
+}
+
+.opacity {
+    animation-name: opacity;
+    animation-duration: 0.7s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.title {
+    animation-name: toleft;
+    animation-duration: 0.7s;
+    animation-delay: 0.3s;
+    opacity: 0;
+    transform: translateX(32px);
+    animation-fill-mode: forwards;
+}
+
+.footerlink {
+    color: black;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.footerlink:hover {
+    opacity: 0.7;
+}
+
+.footerlink:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scaleappear {
+    animation-name: card;
+    animation-duration: 0.7s;
+}
+
+.mdui-panel-item-title {
+    width: 75%;
+    min-width: 75%;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.mdui-tab .mdui-icon {
+    padding: 4px 4px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.mdui-card-media-covered {
+    border-radius: 10px 10px 0 0;
+}
+
+.toolbar-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.mdui-card-menu .mdui-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.mdui-theme-layout-dark .toolbar-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .mdui-theme-layout-auto .mdui-dialog {
+        background-color: #434343 !important;
+        color: white !important;
+    }
+
+    .mdui-theme-layout-auto .mdui-drawer {
+        background-color: #323232 !important;
+        color: white !important;
+    }
+
+    .mdui-theme-layout-auto .footerlink {
+        color: white;
+    }
+
+    .mdui-theme-layout-auto .footerlink:active {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .mdui-theme-layout-auto .waves-ripple {
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+    .mdui-theme-layout-auto .update-dialog {
+        background-color: rgba(32, 32, 32, 0.9);
+        color: white;
+    }
+
+    .mdui-theme-layout-auto .update-dialog-btn {
+        background-color: #545454;
+        color: white;
+    }
+
+    .mdui-theme-layout-auto .update-dialog-btn:hover {
+        background-color: #656565;
+    }
+
+    .mdui-theme-layout-auto .mdui-tooltip {
+        background-color: rgba(240, 240, 240, 0.9);
+        color: black;
+    }
+
+    .mdui-theme-layout-auto .auto-dark {
+        background-color: #212121 !important;
+        color: white !important;
+    }
+
+    .mdui-theme-layout-auto .mdui-snackbar {
+        background-color: rgba(240, 240, 240, 0.9);
+        color: black;
+    }
+
+    .mdui-theme-layout-auto .toolbar-btn:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+}
+
+.mdui-btn {
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.mdui-drawer {
+    /* //border-radius: 20px; */
+    border-radius: 0 12px 12px 0;
+    /* //left: -17px; */
+    max-width: 280px;
+    transition-property: transform, background-color, color !important;
+    transition-duration: 0.3s, 0.4s, 0.4s !important;
+}
+
+.mdui-list-item {
+    /* //left: 7px; */
+    border-radius: 28px;
+}
+
+.mdui-drawer .mdui-list {
+    padding: 6px;
+}
+
+.mdui-fab {
+    border-radius: 16px;
+}
+
+.mdui-fab-dial {
+    border-radius: 12px;
+}</style>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-blue" style="padding-top: 150px">
+    <div id="app" class="mdui-container">
+        <div class="mdui-appbar mdui-appbar-fixed">
+            <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
+                <div class="mdui-toolbar  mdui-color-blue-100">
+                    <a mdui-tooltip="{content: '菜单'}" class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-drawer="{target: '#drawer', swipe: true}"> <i class="mdui-icon material-icons">menu</i> </a>
+                    <span class="mdui-typo-headline">小白BZS的网站</span>
+                    <div class="mdui-toolbar-spacer"></div>
+                <!--    <a mdui-tooltip="{content: '文档'}" href="javascript:window.open('https://www.mdui.org/');" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">link</i></a> --!>
+                    <a mdui-tooltip="{content: '关于'}" href="javascript:mdui.alert('该网页是@小白BZS的个人网站，在这里，您可以了解到我，获取我的社交媒体，查看我的动态。<br>模板支持：MDUI<br>应用支持：HopWeb Editor <br> MD3适配：bgtool.ml<br>','关于')" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">info_outline</i></a>
+                 <!--   <a mdui-tooltip="{content: '更多'}" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#example-attr'}"><i class="mdui-icon material-icons">more_vert</i></a>
+                    <ul class="mdui-menu" id="example-attr">
+                        <li class="mdui-menu-item">
+                            <a href="javascript:;" class="mdui-ripple">Refresh</a>
+                        </li>
+                        <li class="mdui-menu-item" disabled>
+                            <a href="javascript:;">Help & feedback</a>
+                        </li>
+                        <li class="mdui-menu-item">
+                            <a href="javascript:;" class="mdui-ripple">Settings</a>
+                        </li>
+                        <li class="mdui-divider"></li>
+                        <li class="mdui-menu-item">
+                            <a href="javascript:;" class="mdui-ripple">Sign out</a>
+                        </li>
+                    </ul>
+                    --!>
+                </div>
+              <div class="mdui-tab mdui-tab-centered mdui-color-blue-100  " mdui-tab>
+                    <a href="#example-1" class="mdui-ripple mdui-ripple-white " onclick="activeTab1()">
+                        <i class="mdui-icon material-icons" id="tabIcon1">book</i>
+                      <!--  <label>图文</label> -->
+    </a>
+    <a href="#example-3" class="mdui-ripple mdui-ripple-white mdui-tab-active" onclick="activeTab3()">
+        <i class="mdui-icon material-icons" id="tabIcon3">account_circle</i>
+        <!--   <label>关于</label> -->
+    </a>
+    <a href="#example-2" class="mdui-ripple mdui-ripple-white" onclick="activeTab2()">
+        <i class="mdui-icon material-icons" id="tabIcon2">business_center</i>
+        <!--   <label>社交</label> -->
+    </a>
+    </div>
+    </header>
+    </div>
+
+ 
+    <div class="mdui-drawer mdui-drawer-full-height mdui-color-theme-blue" id="drawer">
+        <!-- 顶部图片 -->
+        <img src="https://s1.ax1x.com/2022/09/27/xZGOXR.png" style="aspect-ratio: 1260/899;width: 100%;">
+        <ul class="mdui-list" mdui-collapse="{accordion: true}">
+            <!-- 侧滑布局 -->
+            <li class="mdui-collapse-item mdui-collapse-item">
+                <ul class="mdui-list">
+                    <a href="#" class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
+                        <div class="mdui-list-item-content">Inbox</div>
+                    </a>
+                    <a href="#" class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
+                        <div class="mdui-list-item-content">Outbox</div>
+                    </a>
+                    <a href="https://www.mdui.org/docs/list" class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">delete</i>
+                        <div class="mdui-list-item-content">抽屉式导航</div>
+                    </a>
+                    <a href="https://www.mdui.org/docs/list" class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">error</i>
+                        <div class="mdui-list-item-content">MDUI 官方示例</div>
+                    </a>
+                    <a href="https://www.mdui.org/docs/list" class="mdui-list-item mdui-ripple">
+                        <i class="mdui-list-item-icon mdui-icon material-icons">insert_drive_file</i>
+                        <div class="mdui-list-item-content">跳转文档</div>
+                    </a>
+                </ul>
+        </ul>
+        </li>
+        </ul>
+    </div>
+    <!--
+        <div class="mdui-fab-wrapper" mdui-fab>
+            <button class="mdui-fab mdui-ripple mdui-color-pink-accent">
+                <i class="mdui-icon material-icons">add</i>
+            </button>
+            <div class="mdui-fab-dial">
+                <button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink" mdui-dialog="{target: '#exampleDialog'}">
+                    <i class="mdui-icon material-icons">search</i>
+                </button>
+                <a class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-red" onclick="hd()">
+                    <i class="mdui-icon material-icons">web_asset</i>
+                </a>
+                <a class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-orange" onclick="API()">
+                    <i class="mdui-icon material-icons">chat</i>
+                </a>
+            </div>
+        </div>
+        
+        --!>
+    </div>
+    </div>
+    </div>
+
+    <div class="mdui-container-fluid" >
+    
+        <div id="example-1" class="mdui-p-a-2">
+       
+            <div class="mdui-row mdui-typo" >
+                <div class="mdui-col-sm-6 mdui-col-md-4">
+                    <h1 >精选图文<small> 科技 学习 生活</small> </h1>
+                  <!--  <button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="window.open('https://www.mdui.org/docs/card')">跳转文档</button> --!>
+                  
+                   </div>
+    </div>
+    <br>
+    <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自酷安</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZYGxH.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">优雅的网课打铃</div>
+        <div class="mdui-card-primary-subtitle">腾讯会议网课自动打铃解决方案</div>
+    </div>
+    <div class="mdui-card-content">毫无疑问，通过虚拟机打铃可能是目前一劳永逸最为优雅的方式，告别共享屏幕式打铃，告别开麦克风放录音打铃。但是光鲜的背后是较为复杂的操作方式。</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple " onclick="window.open('https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2')">查看更多</button>
+    </div>
+    </div>
+  <br>
+  <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自酷安</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZYQIK.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">去繁留简</div>
+        <div class="mdui-card-primary-subtitle">桌面整理</div>
+    </div>
+    <div class="mdui-card-content">热爱生活，发现生活<br>
+发现身边的小物件，小科技<br>
+用一个规矩整齐的桌面，带来一天的好心情。</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple" onclick="window.open('https://www.coolapk.com/feed/34633537?shareKey=NWIzMGM3MjEwYTQ3NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2')">查看更多</button>
+    </div>
+    </div>
+  
+<br>
+  <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自酷安</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZY8Re.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">多文言Duo软件分享</div>
+        <div class="mdui-card-primary-subtitle">高中语文集成沉浸学习</div>
+    </div>
+    <div class="mdui-card-content">通过FA软件配合一部分代码组合而成的软件，内有优质网页和部分原创的文学文档</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple" onclick="window.open('https://www.coolapk.com/feed/34564165?shareKey=ODU5Y2E4ZDJiMWFhNjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2')">查看更多</button>
+    </div>
+    </div>
+  
+
+<br>
+  <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自酷安</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZYMa6.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">Windows 系统安装</div>
+        <div class="mdui-card-primary-subtitle">第一次成功装系统，没想到这么顺利哦！</div>
+    </div>
+    <div class="mdui-card-content">本文较为详细的描述了我第一次通过常规PE模式安装系统的经历，通过此文您可以学习如何简单安装 Windows 系统</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple" onclick="window.open('https://www.coolapk.com/feed/28433323?shareKey=NTlkZGQxNjJjMGVhNjMzMTNhM2U~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2')">查看更多</button>
+    </div>
+    </div>
+  
+
+<br>
+  <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自腾讯文档</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZYnq1.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">在 Windows 中 运行 Android ？</div>
+        <div class="mdui-card-primary-subtitle">通过多文言Duo应用的安装来了解 Windows Subsystem for Android™</div>
+    </div>
+    <div class="mdui-card-content">本篇文章旨在提供一种 WSA 安装方式，WSA 对于设备性能有一定要求，如果您的设备安装出错，您可以访问 Microsoft 官网寻求帮助，或者来到数码爱好者社区 酷安Coolapk-Windows11 板块交流。
+</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple" onclick="window.open('https://docs.qq.com/doc/DRVllRU96eFlZcG5u')">查看更多</button>
+    </div>
+    </div>
+  
+
+<br>
+  <div class="mdui-card">
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://z3.ax1x.com/2021/11/09/IJrJHg.jpg" />
+            <div class="mdui-card-header-title">小白BZS</div>
+            <div class="mdui-card-header-subtitle">来自酷安</div>
+        </div>
+        <div class="mdui-card-media">
+            <img src="https://s1.ax1x.com/2022/09/27/xZY1PO.png" />
+            <div class="mdui-card-menu">
+                <!--           <button id="copy"class="mdui-btn mdui-btn-icon mdui-text-color-white"th:href="https://www.coolapk.com/feed/38887354?shareKey=YTQwMWU1YzNiM2E2NjMzMDQ2NzA~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2"><i class="mdui-icon material-icons">share</i></button>
+                        -->
+    </div>
+    </div>
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">浅谈 Fusion App</div>
+        <div class="mdui-card-primary-subtitle">所有的网页都是客户端</div>
+    </div>
+    <div class="mdui-card-content">FA是一个网页转应用的软件，通过FA入门编程，了解学习lua等语言，通过中文函数和模板可以帮助你嵌套网页和编程，达到一些功能和界面。</div>
+    <div class="mdui-card-actions">
+        <button class="mdui-btn mdui-ripple" onclick="window.open('https://www.coolapk.com/feed/31435324?shareKey=Mzg0YmFmYjQ5M2E3NjMzMTNhM2U~&shareUid=3543373&shareFrom=com.coolapk.market_12.5.0-beta2')">查看更多</button>
+    </div>
+    </div>
+  
+
+
+    </div>
+    <div id="example-2" class="mdui-p-a-2">
+        <div class="mdui-typo">
+            <h1>表格示例 <small>MDUI 官方示例</small> </h1>
+            <button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="window.open('https://www.mdui.org/docs/table')">跳转文档</button>
+            <div style="margin-top: 50px">
+                <div class="mdui-table-fluid">
+                    <table class="mdui-table mdui-table-hoverable">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Username</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Larry the Bird</td>
+                                <td></td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="mdui-table-fluid">
+                    <table class="mdui-table mdui-table-selectable">
+                        <thead>
+                            <tr>
+                                <th>Dessert (100g serving)</th>
+                                <th class="mdui-table-col-numeric" mdui-tooltip="{content: 'The total amount of food energy in the given serving size.'}">Calories</th>
+                                <th class="mdui-table-col-numeric">Fat (g)</th>
+                                <th class="mdui-table-col-numeric">Carbs (g)</th>
+                                <th class="mdui-table-col-numeric">Protein (g)</th>
+                                <th class="mdui-table-col-numeric">Sodium (mg)</th>
+                                <th class="mdui-table-col-numeric" mdui-tooltip="{content: 'The amount of calcium as a percentage of the recommended daily amount.'}">
+                                    Calclum (%)</th>
+                                <th class="mdui-table-col-numeric">Lron (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="mdui-table-row-selected">
+                                <td>Frozen yogurt</td>
+                                <td>159</td>
+                                <td>6.0</td>
+                                <td>24</td>
+                                <td>4.0</td>
+                                <td>87</td>
+                                <td>14%</td>
+                                <td>1%</td>
+                            </tr>
+                            <tr>
+                                <td>Ice cream sandwich</td>
+                                <td>237</td>
+                                <td>9.0</td>
+                                <td>37</td>
+                                <td>4.3</td>
+                                <td>129</td>
+                                <td>8%</td>
+                                <td>1%</td>
+                            </tr>
+                            <tr>
+                                <td>Eclair</td>
+                                <td>262</td>
+                                <td>16.0</td>
+                                <td>24</td>
+                                <td>6.0</td>
+                                <td>337</td>
+                                <td>6%</td>
+                                <td>7%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="example-3" class="mdui-p-a-2">
+        <div class="mdui-typo">
+            <h1>首页 <small>关于我</small> </h1>
+       <!--     <button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="window.open('https://wds.ecsxs.com/222746.html')">转至未使用层叠样式表的简介页</button>-->
+
+
+
+            <div style="margin-top: 50px">
+                <div class="mdui-panel mdui-panel-popout" mdui-panel>
+
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">昵称</div>
+                            <div class="mdui-panel-item-summary">小白BZS</div>
+                            <!--      <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>-->
+                        </div>
+                        <!-- <div class="mdui-panel-item-body">
+                                <p>First content</p>
+                                <p>First content</p>
+                                <p>First content</p>
+                                <p>First content</p>
+                                <p>First content</p>
+                                <p>First content</p>
+                                <div class="mdui-panel-item-actions">
+                                    <button class="mdui-btn mdui-ripple">cancel</button>
+                                    <button class="mdui-btn mdui-ripple">save</button>
+                                </div>
+                            </div>-->
+                    </div>
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">个人简介</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>我是小白BZS，来自哈尔滨，现在是一名高中生，喜好电子科技类方向信息及技术，在软件程序上有所了解。</p>
+                            <!--   <p>    </p>
+                                <p>Second content</p>
+                                <p>Second content</p>
+                                <p>Second content</p>
+                                <p>Second content</p> 
+                                <div class="mdui-panel-item-actions">
+                                    <button class="mdui-btn mdui-ripple">cancel</button>
+                                    <button class="mdui-btn mdui-ripple">save</button>
+                                </div>
+                                -->
+
+                        </div>
+                    </div>
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">位置</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>哈尔滨，黑龙江，中国</p>
+                            <!--   <p>    </p>
+                                <p>Second content</p>
+                                <p>Second content</p>
+                                <p>Second content</p>
+                                <p>Second content</p> 
+                                <div class="mdui-panel-item-actions">
+                                    <button class="mdui-btn mdui-ripple">cancel</button>
+                                    <button class="mdui-btn mdui-ripple">save</button>
+                                </div>
+                                -->
+
+                        </div>
+                    </div>
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">教育经历</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>哈尔滨市南马路学校</p>
+                            <p>哈尔滨市香远中学（原：哈尔滨市香坊中学）</p>
+                            <p>哈尔滨市第九中学</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple" onclick="window.open('https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%82%E7%AC%AC%E4%B9%9D%E4%B8%AD%E5%AD%A6%E6%A0%A1/9965499?fr=kg_general')"><a>了解哈尔滨市第九中学</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <h1>社交媒体 <small>在其他平台上发现我</small> </h1>
+                    <div align="center">
+                        <br>
+                        <a onclick="mdui.snackbar('暂不支持通过微信和我取得联系，请尝试使用其他平台')"><img id="wx" style="margin-left:10px;" src="https://s1.ax1x.com/2022/09/27/xZYddP.png" width="50px"> </a>
+                        <a href="https://qm.qq.com/cgi-bin/qm/qr?k=nzQscbxFMrP64RmAB9EYc-ImDs99oTHD&noverify=0" target="_blank" onclick="mdui.snackbar('正在跳转')"> <img id="qq" style="margin-left:10px;" src="https://s1.ax1x.com/2022/09/27/xZYwIf.png" width="50px"></a>
+                        <a href="https://h5.dingtalk.com/zproject/profile.html?fr_source=13&profile=%40kgDOG1EaFg&cardToken=02341d5f30" onclick="mdui.snackbar('暂不支持通过钉钉和我取得联系，请尝试使用其他平台')"><img id="钉钉" src="https://s1.ax1x.com/2022/09/27/xZYtsA.png" width="50" style="margin-left:10px;"> </a>
+                        <a href="https://weibo.com/u/6393209707" onclick="mdui.snackbar('正在跳转')"> <img id="微博" style="margin-left:10px;" src="https://s1.ax1x.com/2022/09/27/xZYaZt.png" width="50px"> </a>
+                        <a href="https://b23.tv/NkMkQEU" onclick="mdui.snackbar('正在跳转')"> <img id="bili" src="https://s1.ax1x.com/2022/09/27/xZYNqI.png" width="50" style="margin-left:10px;"> </a>
+                        <a href="http://www.coolapk.com/u/3543373" onclick="mdui.snackbar('正在跳转')"> <img id="coolapk" src="https://s1.ax1x.com/2022/09/27/xZYBi8.png" width="50" style="margin-left:10px;"> </a>
+                        <a href="https://github.com/XiaoBaiBZS" onclick="mdui.snackbar('正在跳转')"> <img id="github" src="https://s1.ax1x.com/2022/09/27/xZYYMd.png" width="50" style="margin-left:10px;"> </a>
+                    </div>
+
+                    <br>
+                    <h1>电子邮箱 <small>向我便捷发送信息</small> </h1>
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">QQ Mail（QQ邮箱）</div>
+                            <div class="mdui-panel-item-summary">推荐使用</div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>1298589907@qq.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a href="mailto:1298589907@qq.com?subject=通过QQ邮箱和我联系&cc=sample@hotmail.com&body=您好，我是">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">Microsoft Outlook（微软展望邮箱）</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>a1298589907@outlook.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a href="mailto:a1298589907@outlook.com?subject=通过 Microsoft Outlook 和我联系&cc=sample@hotmail.com&body=您好，我是">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">Ding Mail（钉邮）</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>bzs1298589907@dingtalk.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a href="mailto:bzs1298589907@dingtalk.com?subject=通过钉邮和我联系&cc=sample@hotmail.com&body=您好，我是">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">Petalmail（花瓣邮箱）</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>xiaobaibzs@petalmail.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a href="mailto:xiaobaibzs@petalmail.com?subject=通过HUAWEI Petalmail邮箱和我联系&cc=sample@hotmail.com&body=您好，我是">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">Google Gmail（谷歌邮箱）</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>bzs1298589907@gmail.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a onclick="mdui.snackbar('建议您转至QQ邮箱1298589907@qq.com，因为使用 GMS 服务需要 VPN 网络连接，对方可能无法收取您的消息')">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mdui-panel-item">
+                        <div class="mdui-panel-item-header">
+                            <div class="mdui-panel-item-title">Microsoft office365 Exchange</div>
+                            <div class="mdui-panel-item-summary"></div>
+
+                            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <div class="mdui-panel-item-body">
+                            <p>bzs1298589907@gmail.com</p>
+
+                            <div class="mdui-panel-item-actions">
+                                <!--  <button class="mdui-btn mdui-ripple">cancel</button>-->
+                                <button class="mdui-btn mdui-ripple"><a onclick="mdui.snackbar('建议您转至QQ邮箱1298589907@qq.com，因为对方可能无法收取您的消息')">向我发送邮件</a></button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </body>
+
+</html>
