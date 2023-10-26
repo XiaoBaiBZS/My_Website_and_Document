@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.76" y1="0.639" x2="0.009" y2="0.59" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#645eff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#524dd6"/>
+    </linearGradient>
+    <clipPath id="clip-随搜">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="随搜" clip-path="url(#clip-随搜)">
+    <rect width="512" height="512" fill="#645eff"/>
+    <rect id="矩形_13" data-name="矩形 13" width="360" height="289.173" transform="translate(372.681 168.672) rotate(45)" fill="url(#linear-gradient)"/>
+    <g id="椭圆_12" data-name="椭圆 12" transform="translate(109 109)" fill="#645eff" stroke="#fff" stroke-width="15">
+      <circle cx="147" cy="147" r="147" stroke="none"/>
+      <circle cx="147" cy="147" r="139.5" fill="none"/>
+    </g>
+    <g id="组_3" data-name="组 3" transform="translate(1 1)">
+      <circle id="椭圆_13" data-name="椭圆 13" cx="15" cy="15" r="15" transform="translate(185 203)" fill="#fff"/>
+      <circle id="椭圆_14" data-name="椭圆 14" cx="15" cy="15" r="15" transform="translate(295 203)" fill="#fff"/>
+    </g>
+    <path id="路径_10" data-name="路径 10" d="M801-301.189s18.62,40.159,71.014,40.159,69.56-40.159,69.56-40.159" transform="translate(-615 612)" fill="none" stroke="#fff" stroke-width="15"/>
+  </g>
+</svg>

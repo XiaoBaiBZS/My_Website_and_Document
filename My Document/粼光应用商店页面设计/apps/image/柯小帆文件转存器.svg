@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.985" y1="0.539" x2="0.047" y2="0.53" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0090ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0073cb"/>
+    </linearGradient>
+    <clipPath id="clip-柯小帆文件转存器">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="柯小帆文件转存器" clip-path="url(#clip-柯小帆文件转存器)">
+    <rect width="512" height="512" fill="#0090ff"/>
+    <rect id="矩形_23" data-name="矩形 23" width="380.727" height="323.896" transform="translate(371.211 187.335) rotate(45)" fill="url(#linear-gradient)"/>
+    <path id="路径_33" data-name="路径 33" d="M3347.1-465s24.188-6.093,36.877-4.951S3404.2-465,3404.2-465s8.723,6.093,13.878,9.521,50.359,0,50.359,0v53.7H3309.823v-53.7h23Z" transform="translate(-2953 916.779)" fill="#ff9364" stroke="#000" stroke-width="5"/>
+    <path id="路径_34" data-name="路径 34" d="M3352.479-407.492s4.57-4.189,11.806-23.231,17.9-23.231,17.9-23.231" transform="translate(-2952.919 922.492)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_35" data-name="路径 35" d="M3421.409-407.492s.381-3.808,20.184-13.71,25.516-19.423,25.516-19.423" transform="translate(-2951.675 921.469)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_27" data-name="路径 27" d="M3050.1-106.633l12.187-90.638s-59.791,4.951-80.356-34.656-19.042-54.078-19.042-54.078-6.474-33.894,0-53.7,17.138-19.042,17.138-19.042,5.712-36.56,20.184-45.7,3.047,45.7,3.047,45.7,4.57,9.521,7.236,2.285-6.59-43.122,56.1-85.307,139.444-9.96,139.444-9.96,72.651,30.174,86.42,101.067-38.125,100.747-38.125,100.747,9.416-5.539-9.04,4.714-21.092,7.91-21.092,7.91,16.405,10.546,29,37.79,4.1,68.257,4.1,68.257-.293,9.081-10.839,14.062-20.506,0-20.506,0v10.546Z" transform="translate(-2871.452 621.633)" fill="#fff" stroke="#000" stroke-width="5"/>
+    <path id="路径_28" data-name="路径 28" d="M3095.8-655.415s19.8-.762,22.088,29.324,1.049,13.141,1.049,13.141-.287,20.372,6.949,30.655,24.564,21.422,32.752,28.563" transform="translate(-2961 923)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_29" data-name="路径 29" d="M3311.788-407.2s-4.394-70.6-8.2-89.349-5.493-19.335-7.324-25.78" transform="translate(-2957 919.199)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_30" data-name="路径 30" d="M3206.233-660.364s1.143,14.853,21.708,17.138,25.135-8,25.135-8" transform="translate(-2961.714 936)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_31" data-name="路径 31" d="M3195.189-711.4l-3.047,21.707" transform="translate(-2883 946)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="路径_32" data-name="路径 32" d="M3195.189-711.4l-3.047,21.707" transform="translate(-2962 935.146)" fill="none" stroke="#000" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.897" y1="0.643" x2="1.023" y2="0.647" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#515151"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.006" y1="0.518" x2="-0.261" y2="0.494" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#201b01"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.006" y1="0.518" x2="-1.081" y2="0.687" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#4e4200"/>
+    </linearGradient>
+    <clipPath id="clip-地理美图">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="地理美图" clip-path="url(#clip-地理美图)">
+    <rect width="512" height="512"/>
+    <g id="组_7" data-name="组 7" transform="translate(23 8)">
+      <path id="路径_45" data-name="路径 45" d="M0,8.754,99.5,0l29.731,226.184-98.787-2.9,4.5-101.131Z" transform="translate(409.592 217.748) rotate(45)" fill="url(#linear-gradient)"/>
+      <path id="路径_42" data-name="路径 42" d="M0,0H136.967l36.716,127.872-45.8.008Z" transform="translate(138.331 180.147) rotate(45)" fill="url(#linear-gradient-2)"/>
+      <path id="路径_43" data-name="路径 43" d="M0,0,28.376,1.53,57.1,30.258,28.436,28.436Z" transform="translate(227.282 356.694) rotate(45)" fill="url(#linear-gradient-3)"/>
+      <g id="组_6" data-name="组 6" transform="translate(96.616 92.034)">
+        <path id="路径_39" data-name="路径 39" d="M2530.184,159.07V377.607h130.982V336.631H2572.21V159.07Z" transform="translate(-2530.184 -72.057)" fill="#ffd600"/>
+        <path id="路径_40" data-name="路径 40" d="M2685.4,370.333V325.155s41.326-10.156,60.588-35.022A132.734,132.734,0,0,0,2770.149,239H2640.918V196.275h174.409s8.755,58.487-28.368,111.72S2685.4,370.333,2685.4,370.333Z" transform="translate(-2508.535 -64.783)" fill="#fff"/>
+        <path id="路径_41" data-name="路径 41" d="M2791.522,131.392c34.192,38.5,30.938,41.127,30.938,41.127h-50.647s-21.552-23.438-39.6-33.675-40.679-9.968-40.679-9.968H2530.184V86.311h161.347s27.083-1.084,52.188,11.11S2791.522,131.392,2791.522,131.392Z" transform="translate(-2530.184 -86.286)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

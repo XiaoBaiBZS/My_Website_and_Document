@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.518" y1="0.468" x2="0.015" y2="0.558" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0f7443" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0c703f"/>
+    </linearGradient>
+    <clipPath id="clip-轻听">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="轻听" clip-path="url(#clip-轻听)">
+    <rect width="512" height="512" fill="#0f894e"/>
+    <path id="路径_112" data-name="路径 112" d="M0,0,520.638-6.935,317.121,296.724,66.054,289.509l12.7-82.515L-21.9,72.793Z" transform="translate(345.123 122.829) rotate(45)" fill="url(#linear-gradient)"/>
+    <path id="路径_111" data-name="路径 111" d="M844.252,3077.017h87.332v59.195H871.892v147.24s0,54.718-55.713,59.692c-22.341,1.995-42.844-10.134-53.719-25.5-15.944-22.534-14.1-54.316,4.97-73.982,31.836-32.831,76.821-12.436,76.821-12.436Z" transform="translate(-585.638 -2954.188)" fill="#fff"/>
+  </g>
+</svg>
