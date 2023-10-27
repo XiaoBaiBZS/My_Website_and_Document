@@ -65,6 +65,77 @@
 -	factor 因素
 -	trendy 时髦的
 
+### Unit 2
+-	roam 闲逛，漫步
+-	wander through 曲折经过 
+-	marvel 令人惊异的，奇迹，不凡的成果，感到惊奇，赞叹
+-	variety 品种，变化，多样化，变体
+-	essentially 基本上，本质上，根本上
+-	passionate 感情强烈的，热情的
+-	embrace 拥抱，接受，包围，包含，领会
+-	be associated with 与…联系，与…有关
+-	reunion 团圆，重逢，聚会
+-	consult 咨询，查询
+-	stern 严厉的，严格的，苛刻的
+-	fretful 令人烦恼的，发牢骚的
+-	instruction 指示，教导，命令，说明用法的
+-	refugee 难民，避难者
+-	overload 超载的，超负荷的
+-	singular 单个的，独一无二的
+-	get a grasp of 掌握
+-	queue 排队，队列
+-	orderly 有条理的，整齐的
+-	scramble 争抢，抢夺
+-	fundamental 基础，基本原理
+-	evidence 证据，证明
+-	instinct 本能，直觉，天性，充满的
+-	to one’s amazement 令…吃惊
+-	impulse 冲动，突然的欲望
+-	bounce 弹起，反弹，弹跳
+-	concept 概念，观点
+-	be ignorant of 不了解，对…无知
+-	reliably 可靠地，可信赖地
+-	endanger 使处于险境，危及
+-	existence 生活，生活方式，存在，实有
+-	sniff 嗅，闻
+-	charm 吸引…的兴趣，迷住
+-	oddly 古怪地
+-	stumble 绊倒，失足，失误
+-	tuck 把…放起来，塞进
+-	casual 随便的，漫不经心的
+-	document 文档
+-	transition 过渡，变迁，转变
+-	snap 突然，厉声说，（抢拍的）照片，匆忙的
+-	capitalism 资本主义
+-	snapshot 简介，快照
+-	capture 捕获，采集
+-	virtually 几乎，虚拟地，模拟地
+-	touch up 修改，改进，润色
+-	fossilized 使成化石，石化，僵化
+-	volcanic 火山的，由火山作用引起的
+-	photography 摄影，摄影业
+-	era 纪元，新时代
+-	critic 评论家，批评家
+-	sketch 画速写，画素描
+-	jot down 草草记下
+-	echo 附和（别人的观点），回声，回音
+-	illustrate 解释，做图表，表明…真实
+-	capability 能力，才干
+-	layer 铺一层，分层放置，层
+-	maximize 最大化，最大限度
+-	unfiltered 未经过滤的
+-	dramatic 突然的，巨大的，令人吃惊的，戏剧性的
+-	cherish 重视，珍视
+-	encounter 遭遇，偶然遇到
+-	tap 水龙头，轻拍
+-	whisper 训练动物的人
+-	striped 条纹，线条
+-	enduring 持续存在
+-	quotation 引文，引语，语录
+-	for one’s sake 为了…的缘故
+-	disobey 不服从，违抗
+-	sway 摇晃，晃动，摇摆
+
 
 ## Sentences
 ### Unit 1
@@ -118,4 +189,54 @@
 
 17.	 (Para 8, Line 3-5)	Therefore, what’s most important for a product is to have the ability to speak to a millennial’s aspirations and sense of identity, of which being a global citizen and having pride in China are important factors.    
 -	因此，对于一款产品来说，最重要的是要能够表达千禧一代的愿望和认同感，其中全球公民的身份和对中国感到自豪是尤为重要的特征。
+
+### Unit 2
+1.	 (Para 3, Line 2-5)  I went into the cinema and discovered that my ticket directed me to sit beside the only other people in the place, a young couple locked in the sort of passionate embrace associated with dockside reunions at the end of long wars.
+-	我走进电影院，发现在我的票对应的座位旁，只有一对年轻情侣。这对情侣如胶似漆地拥抱在一起，让人联想到旷日持久的战争结束后人们在码头上重聚的情景。
+
+2.	 (Para 3, Line 5-6)  I could no more have sat beside them than I could have asked to join in, so I took a place a few seats away.
+-	我感觉坐在他们边上就如同要求加入他们一样让我尴尬，因此，我选择隔了几个座位坐了下来。
+
+3.  (Para 4, Line 4-7)  Two minutes into the movie, a woman made her way with difficulty down my row, stopped beside my seat, and told me in a stern voice that I was in her place. 
+-	电影开场两分钟后，一位女士艰难地挤到我这排，在我座位旁停下，用严厉的口吻告诉我，我坐了她的位子。
+
+4.  (Para 4, Line 12-14)  It occurred to me then that there are certain things that some nations do better than everyone else and certain things that they do far worse. 
+-	那时我想，有些国家在某些事情上做得比任何其他国家都好，然而在另外一件事情上，他们却做得糟糕许多。
+
+5.  (Para 5, Line 3-4)  And yet there are some things that most countries do without difficulty while others cannot get a grasp of them at all.
+-	然而，也有一些大部分国家不费吹灰之力就能办到的事情，有些国家却完全无法领会。
+
+6.  (Para 6, Line 2-4 )  Wherever you go in Paris, you see orderly lines waiting at bus stops, but as soon as the bus pulls up, everyone scrambles to be the first aboard, quite unaware that this defeats the whole purpose of queuing. 
+-	无论你去巴黎的什么地方，都会看到整齐的队伍在公交车站排队候车。但公交车一到站，每个人都争先恐后地抢着第一个上车，完全没有意识到，这样一来，他们排队的意义荡然无存。
+
+7.  (Para 11, 3-4)  I can’t think of anything that excites a greater sense of childlike wonder than to be in a country where you are ignorant of almost everything.
+-	我想没有什么比置身于一个几乎一无所知的国家更能激发一种孩子般的好奇心。
+
+8.  (Para 13, Line 1-4)  However, I wanted to be puzzled and charmed, to experience the endless variety of a continent where you can board a train and an hour later be somewhere where people speak a different language, eat different foods, work different hours, live lives that are at once so different and yet so oddly similar.  
+-	然而，无论是困惑不解，还是陶醉着迷，我都想体验一下，我想体验一下大洲的千差万别——你坐上列车，一个小时以后，你所到达的地方，人们语言不同，饮食各异，有不同的工作时间，生活陡然间变得如此不同，但又惊人地相似。
+
+9.  (Para 1, Line 5-6)  No matter how many journals I fill, photos I take, or posts I send, I find that I often “document” the wrong things.
+-	无论我写了多少旅行日志，拍摄多少影片，发送过多少帖子，我发现自己经常记录了错误的事情。
+
+10.  (Para 5, Line 1-2)  This isn’t as easy as it sounds, but it’s worth bringing up since most of us tend to over-document when we travel these days.
+-	这不像听起来那么容易，但值得提出，因为当下我们大多数人在旅行时往往会过度记录。
+
+11.  (Para 5, Line 3-4)  Armed with smart phones and virtually limitless memory cards, we take hundreds if not thousands of photos without a second thought.
+-	配备智能手机和近乎无限容量的储存卡，我们可以毫不犹豫地拍摄数百甚至数千张照片。
+
+12.  (Para 6, Line 5-7)  This is all before I even bothered to take a non-virtual look at the fossilized land plants and animals in the 44-millon-year-old volcanic mudflow.
+-	做完这些前，我甚至都没实实在在地看一看这些四千四百万年前火山泥流中的陆地植物和动物化石。
+
+13.  (Para 7, Line 2-5)  When photography was just getting off the ground in the Victorian era, English art critic John Ruskin criticized how travelers ended up paying less attention when they had a camera in their hand.
+-	维多利亚时代，当摄影刚刚起步时，英国艺术家约翰.罗斯金就批评说，游客手上拿了相机以后对周围的注意力反而降低了。
+
+14.  (Para 7, Line 5-7)  His advice was to sketch, reasoning that taking the time to jot down even the simplest drawings can help anyone “see” a place better. 
+-	他给出的建议是画素描。他认为花点时间随手画下即便是最简单的几笔也能帮助人们更好地了解一个地方。
+
+15.  (Para 9, Line 1-3) The key to maximizing future memories, then, is just to be present, pay attention to the details that interest you, and look at them closely---perhaps even sketch them. 
+-	因此，要想最大限度地增强未来记忆，关键就是要亲历体验，关注你感兴趣的细节，仔细观察它们—也许甚至勾勒它们。
+
+16.  (Para 12, Line 1-2)  I like to think that each trip has at least one “moment” like this--- one that teaches us a lasting lesson or influences how we see the world.
+-	我觉得每次旅行都至少有一个这样的“时刻”— 它给与我们深刻的启示或影响我们的世界观。
+
 
