@@ -58,7 +58,7 @@
 -	deem 认为，视为
 -	entitle 认为应得的，有权力的
 -	account for 证明，由于，说明用途
--	consumption growth
+-	consumption growth 消费增长
 -	forecast 预测，预报
 -	project 工程，方案，项目
 -	aspiration 渴望，志向
