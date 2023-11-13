@@ -26,7 +26,7 @@ the entrepreneurs at home and abroad
 -	The color most frequently used in paper cutting is red which symbolizes health and prosperity.
 
 [对于]那些月薪较低却渴望[在大城市]拥有一个属于自己的体面、舒适的栖身之所的人来说，/高昂的房价是他们无法承受的负担。
--	For those who , the high housing price is a burden which they cannot afford.
+-	For those who earn a low monthly salary but aspire to have a decent and comfortable place to live in the big city, the high housing price is a burden which they cannot afford.
 
 普通老百姓/是禁止穿黄色衣服的 *（被动）* 。
 -	The ordinary people were forbidden to wear yellow clothes.
