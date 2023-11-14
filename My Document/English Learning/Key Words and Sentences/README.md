@@ -164,7 +164,7 @@
 - 从长远来看，其中一些创新可能对经济和工业产生深远影响，就像电力和计算机的发明改变了人类生活一样。
 
 9.  (Para 13, Line 1-3) Indeed the country has more than its share of world-class companies that are increasingly rising in rankings on size, growth, and, most significantly, innovation.
-确实，中国拥有很多世界级公司，它们在规模、发展速度和最重要的创新方面的排名不断上升。
+- 确实，中国拥有很多世界级公司，它们在规模、发展速度和最重要的创新方面的排名不断上升。
 
 10.  (Para 3, Line 1-3)  It turned out to be a spontaneous movement to express amazement that someone born in 2000 would be an 18-year-old adult this year.
 - 原来，这是人们自发的活动，他们惊叹那些2000年出生的人今年也将成为18岁的成年人了。
