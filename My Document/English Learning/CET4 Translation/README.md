@@ -17,6 +17,8 @@ Chinese entrepreneurs
 -	国内外企业家
 the entrepreneurs at home and abroad
 
+起源于
+be originated in/from
 # Translation Learn
 ## 例句
 乌镇 *（范围）* 所有房屋/都是用石木建造的 *（被动）* 。
