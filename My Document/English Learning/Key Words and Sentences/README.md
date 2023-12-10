@@ -58,7 +58,7 @@
 -	deem 认为，视为
 -	entitle 认为应得的，有权力的
 -	account for 证明，由于，说明用途
--	consumption growth 消费增长
+-	consumption growth
 -	forecast 预测，预报
 -	project 工程，方案，项目
 -	aspiration 渴望，志向
@@ -136,6 +136,76 @@
 -	disobey 不服从，违抗
 -	sway 摇晃，晃动，摇摆
 
+## Unit 3
+-	drip 滴下，沥下
+-	breathtaking 使人喘不过气的，激动人心的，惊人的
+-	fulfillment 成就感，充实感
+-	unparalleled 相似的，同时发生的
+-	brutal 伤人的，不顾他人感受的，野蛮的，凶残的
+-	paradox 悖论
+-	unbearable 难以忍受的，承受不住的，无法忍受的
+-	tease 戏弄，逗弄，取笑
+-	tempt 诱惑，引诱，诱使，劝说，鼓励
+-	loyal 忠贞的，忠实的，忠诚的
+-	option 选择
+-	resist 忍住，按捺
+-	dynamic 动态的
+-	celebration 庆祝，祝贺，颂扬
+-	alongside 与…一起，与…同时，在…一旁
+-	addiction 上瘾
+-	distraction 娱乐，消遣
+-	negative 消极的
+-	graciously 有礼貌地，仁慈地，和蔼地，亲切地
+-	take sth. out on sb. 向某人发泄，拿某人出气
+-	weaken 虚弱，变弱，削弱
+-	reassure 安抚，打消，安慰
+-	a bump in the road 前进中的问题（暂时的问题）
+-	permanently 永久地，长久地
+-	shrink 退缩，畏缩
+-	tackle 处理，对付（难题）
+-	prospect 可能性，希望
+-	curve 河曲处，曲线，弧线
+-	split 离婚，分手，产生分歧
+-	cracked 有裂痕的
+-	crack 破裂，裂开
+-	stand on one’s own feet 自立，独立自主
+-	label 标签标号，吊牌
+-	species 物种，种类，品类
+-	by nature 生性
+-	merge 相融，融入，合并
+-	indistinguishable 难以区分的
+-	distinguish 区分，分辨
+-	be obsessed with 痴迷于
+-	productivity 生产力
+-	productive 生产力的，生产性，高产的
+-	venture 风险项目，风险投资，冒险事业
+-	fragility （形式）脆弱，不稳定，易损坏
+-	fragile 脆弱的
+-	accessible 易得到的，易使用的
+-	corporation 大型公司，企业集团
+-	disposable 可以使用的
+-	amusement park 游乐场
+-	emerge 兴起，开始被人所知
+-	privilege 特权
+-	automatic 自动的
+-	prosperity 兴隆，发达，繁荣，昌盛
+-	unrest 动荡，动乱，骚动
+-	shortage 短缺，不足，缺乏
+-	pension 养老金
+-	recession （经济）衰退，萧条
+-	discontented 不满的，不满足的，不愉快的
+-	mindset 心态
+-	core 核心
+-	strive 努力，奋斗，力求
+-	equate 等同
+-	duality 二重性，双重性
+-	dual 双的，双重的，两部分的
+-	boundary 分野，分界线
+-	for the sake of 为了，目的
+-	meditative 冥想的，默想的，深思的，沉思的
+-	ruin 毁掉，毁坏，糟蹋
+-	enhance 改善，改进
+
 
 ## Sentences
 ### Unit 1
@@ -164,7 +234,7 @@
 - 从长远来看，其中一些创新可能对经济和工业产生深远影响，就像电力和计算机的发明改变了人类生活一样。
 
 9.  (Para 13, Line 1-3) Indeed the country has more than its share of world-class companies that are increasingly rising in rankings on size, growth, and, most significantly, innovation.
-- 确实，中国拥有很多世界级公司，它们在规模、发展速度和最重要的创新方面的排名不断上升。
+确实，中国拥有很多世界级公司，它们在规模、发展速度和最重要的创新方面的排名不断上升。
 
 10.  (Para 3, Line 1-3)  It turned out to be a spontaneous movement to express amazement that someone born in 2000 would be an 18-year-old adult this year.
 - 原来，这是人们自发的活动，他们惊叹那些2000年出生的人今年也将成为18岁的成年人了。
@@ -239,4 +309,59 @@
 16.  (Para 12, Line 1-2)  I like to think that each trip has at least one “moment” like this--- one that teaches us a lasting lesson or influences how we see the world.
 -	我觉得每次旅行都至少有一个这样的“时刻”— 它给与我们深刻的启示或影响我们的世界观。
 
+### Unit 3
+1.	(Para 1, Line 2-3)  I was told I need some “time to myself.” To let myself “recover” — and in the process, self-discover. Still, I can’t help but miss you.
+-	有人告诉我，我需要一些“自己的时间”，以便让我“恢复”，并在此过程中发现自我。但是，我无时无刻不在想念你。
+ 
+2. (Para 2, Line 4-5)  ... you understand and appreciate it: the sweat-dripping, heart-pounding, breathtaking times we share, then the fulfillment I get as we finish happily together.
+- ……你还理解和欣赏它。我们一起度过了汗如雨下、心跳加速、呼吸急促的时刻，我们一起快乐结束训练后，我总能收获成就感。
+ 
+3. (Para 3, Line 2-4)  I hate your brutal honesty, and how you hold nothing back from me. While I try to stay tough, I can’t help but wonder how you can hurt every inch of my body so deeply.
+- 我讨厌你近乎残酷的诚实，也讨厌你毫无保留地向我坦诚一切。当我努力保持坚强时，我不禁想知道你怎么能把我身体的每一寸都伤得如此之深。
+ 
+4. (Para 4, Line 4-5)  But you tease me, taunt me, tempt me to remain loyal to you, even though we both know you’re not what I need right now.
+- 但是，即使我们俩都知道你现在不是我所需要的东西，你却依然戏弄我、嘲讽我、诱使我继续对你保持忠实。
+ 
+5. (Para 6, Line 3-4)  All my weaknesses, celebrations, highs and lows, you’ve experienced them right alongside me. 
+- 我所有的弱点、值得庆祝的事情、高潮和低谷，你都陪着我一起经历。
+ 
+6. (Para 6, Line 4-6)  My mom’s cancer? You were my cure. My dad’s alcohol addiction? You were my distraction. School, jobs, travel, relationships, family—in every stage of my life, you’ve been my escape, and I’ve taken comfort in your company.
+- 我妈妈得了癌症？你帮我疗愈哀伤。我父亲的酒瘾？你帮我排遣。学校、工作、旅行、人际关系、家庭——在我生活的每个阶段，你都是我的港湾，而我在你的陪伴下感到安慰。
+ 
+7. (Para 10, Line 4-5)  I’ll shrink back in envy as you race past me together, and I’ll feel even more broken, like overused goods. 
+- 当你们一起从我面前跑过时，我会黯然后退，羡慕不已；我会更加伤心，好像自己是一件被消耗过度的商品一样。
+ 
+8. (Para 11, Line 2-3)  I am excited by the prospect of taking each hill, each curve, each hurdle, one step at a time, one foot in front of the other, just like we’ve always done. 
+- 我很高兴我们还可能像往常一样爬上每座山，走过每个弯道、跨过每个障碍，一步一步向前，一步一个脚印。
+ 
+9. (Para 11, Line 4-6)  I can’t ask you to change—I know you never will — so I’ll continue to give you my best, all of me, and expect nothing in return except simply the pleasure of your presence.
+- 我不能要求你做出改变——我知道你永远也不会——因此，我将继续全心付出，全力以赴，除了享受和你在一起的简单快乐之外，别无所求。
+
+10. (Para 2, Line 2-5)  Our work lives have merged with our free time, and hobbies are now often indistinguishable from second jobs. In a culture obsessed with productivity, the hobby has become the next venture.
+- 我们的工作已经与我们的业余时间融为一体，如今的业余爱好通常与第二份工作没有区别。在对生产力着迷的文化中，业余爱好已成为下一个商业项目。
+
+11. (Para 3, Line 3-6)  With economic recovery and technological development, corporations were able to offer structured workweeks, job security, higher pay, and paid vacations, and also let their employees go home at 5 p.m. 
+- 随着经济的复苏和技术的发展，企业能够提供规律的工作时间、工作保障、更高的薪水、带薪假期，还让员工在下午5点下班回家。
+ 
+12. (Para 4, Line 1-2)  Leisure came to define a person’s identity during this time, in many cases replacing career identity. Having a hobby was not only possible; it was a status symbol.
+- 这期间，休闲开始定义一个人的身份。在许多情况下，它取代了职业身份。拥有业余爱好不仅是可能的，而且还是地位的象征。 
+ 
+13. (Para 5, Line 1-3)  However, post-war prosperity gradually disappeared, replaced by civil unrest, oil shortages, and economic uncertainty.
+- 但是，战后的繁荣逐渐消失，取而代之的是内乱、石油短缺和经济的不确定性。
+ 
+14. (Para 6, Line 2-4)  Young people turned to what they loved, what they were good at, with an entrepreneurial mindset aimed toward self-employment.
+- 年轻人带着一种自我创业的企业家心态，转向了自己喜欢和擅长的领域。
+ 
+15. (Para 6, Line 5-7)  By contrast, 57 percent of millennials prioritized doing something they found enjoyable and that made a difference. 
+- 相比之下，57％的千禧一代优先考虑做他们认为令人愉快的事情，这和老一代人很不相同。
+ 
+16. (Para 7, Line 1-2)   Instead of viewing work as inevitable and hobbies as core to one’s identity, as in the post-war era, today’s professionals strive to equate their career with leisure. 
+- 战后，人们把工作视为必须，把业余爱好看作自己个人身份的核心。而如今的职场人士并非这样，他们努力将职业与休闲等同起来。
+ 
+17. (Para 8, Line 3-5)  And even those who enjoy leisure careers might be better to take a break from being productive. That’s tough when we’re being conditioned to love our jobs. 
+- 即使是那些把休闲发展成工作的人，也最好在忙碌之余稍事休息。对我们这些从小被教育要热爱工作的人来说，这很难。
+ 
+18. (Para 9, Line 1-2)  It was a meditative return to nature, something she could own and be alone with.
+- 这是一种对自然的沉思式的回归，是她可以拥有并独自享受的。
+ 
 
