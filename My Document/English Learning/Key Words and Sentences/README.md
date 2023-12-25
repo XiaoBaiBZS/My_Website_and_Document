@@ -194,10 +194,10 @@
 -	pension 养老金
 -	recession （经济）衰退，萧条
 -	discontented 不满的，不满足的，不愉快的
-- inevitable 不可避免的
-- poll 投票
-- prioritize 优先处理
-- make a difference 起作用
+- 	inevitable 不可避免的
+- 	poll 投票
+- 	prioritize 优先处理
+- 	make a difference 起作用
 -	mindset 心态
 -	core 核心
 -	strive 努力，奋斗，力求
@@ -209,6 +209,77 @@
 -	meditative 冥想的，默想的，深思的，沉思的
 -	ruin 毁掉，毁坏，糟蹋
 -	enhance 改善，改进
+
+### Unit4
+-	generalization （片面的）概括，泛论
+-	apply to 适用于，对…有效
+-	myth （许多人相信的）错误观念，荒诞说法
+-	at all costs 不惜一切代价
+-	spousal 配偶的
+-	spouse 配偶
+-	frustrated 懊恼的，沮丧的
+-	validity 有效性
+-	stem 茎
+-	switch 开关
+-	instinctive 本能的，直觉的，天性的
+-	in…mode 以…模式
+-	browse 浏览
+-	nutritious 有营养的，营养丰富的
+-	nutrition 营养
+-	edible 适宜食用的，（无毒）可以吃的
+-	discard 扔掉，弃置
+-	heritage （文化）遗产，传统
+-	prehistoric 史前的，有历史记载以前的
+-	acquisition 购置物，获得物，获得，习得
+-	humid （空气气候）温暖潮湿的，湿热的
+-	trait （某人性格）特性，品质
+-	tendency 趋势，趋向
+-	in terms of 谈及，就…而言，在…方面
+-	eventually 最终
+-	similarity 相似性，类似性，相似点
+-	with respect to 关于，就…而言
+-	predict 预测
+-	be inclined to 有做某事的意向，倾向于做某事
+-	extended较长时间的，延期的
+-	empirical 以实验为依据的，经验主义的
+-	justification 正当理由
+-	inherit 经遗传获得（品质、身体特征等）
+-	sensible 明智的，合理的，实际的，有判断力的
+-	in line with 与…相似，与…水平一致
+-	stereotype 模式化的思想，老一套
+-	prominence 重要，杰出，著名
+-	sentiment 多愁善感，情感因素
+-	feminine 女性特有的（气质外貌）
+-	literary 文学的
+-	maternal 母性的，母亲般慈爱的
+-	excessively 过度的，过多的
+-	inequality 不平等，不平衡，不均匀
+-	equality 平等
+-	bias 偏见，成见，偏心
+-	periodical 期刊
+-	publication 出版，发行，出版物
+-	publisher 发行人，出版商
+-	identify 认出，识别
+-	confirmation 证实证明
+-	overwhelmingly 绝大多数
+-	domestic 国内的
+-	predictable 可预料的，可预见的
+-	startling 异乎寻常的，令人惊奇的
+-	distinctive 特有的，特别的，有特色的
+-	identical 完全相同的，极为相似的
+-	concerted 齐心协力的，一致的
+-	discourse 演讲，论述，著作
+-	sentimental 感伤的
+-	ultimately 最终
+-	at stake 待解决的，成问题的
+-	quantitative 数量的，与数量有关的
+-	representation代理，代表
+-	trivial 微不足道的，没有什么价值的
+-	noticeable 显著的，显而易见的
+-	disguise 掩蔽，掩饰
+-	unconscious （感情思想等）无意识的，未意识到的
+-	pursue 追求，继续前行
+-	discrimination 歧视
 
 
 ## Sentences
@@ -368,4 +439,53 @@
 18. (Para 9, Line 1-2)  It was a meditative return to nature, something she could own and be alone with.
 - 这是一种对自然的沉思式的回归，是她可以拥有并独自享受的。
  
+### Unit4
+1. (Para 1, Line 7-10)  Almost half of all spousal shopping trips ended in arguments, with men becoming frustrated, because they bought what they needed straight away, while their partners were still looking and taking too long to make decisions. 
+- 夫妻俩一起出门购物，近一半以吵架收场。让丈夫们抓狂的是，他们一下子就买                         到了需要的东西，而他们的伴侣却还在逛，还要花很长时间才能决定买不买。
+ 
+2. (Para 2, Line 1-3)  If there is some validity to these generalizations – and if they are more than just the result of social conditioning – where could these different attitudes to shopping stem from?
+- 如果这些泛泛之论有些道理的话- 如果它们不仅仅是社会熏陶/社会环境所培养的产物—那么这些对于购物不同态度是由什么造成的呢？
+ 
+3. (Para 5, Line 7-9)  Perhaps this rush to get home was based on the knowledge that if a hunter left an animal lying for too long, other animals or insects would start to eat it. 
+- 男性这么匆忙回家可能是因为他们知道，如果将猎物长时间留在地上置之不顾，会有其他                         动物或者昆虫来噬食。
+ 
+4. (Para. 6, Line 1-2)  Let me repeat that these are generalizations—there are undoubtedly millions of men and women to whom these characteristics don’t apply.
+- 容我再重复一下，以上这些只是泛泛之谈——毫无疑问，有许许多多的男性女性和这些特征不沾边儿（不具有这些特征）。 
+ 
+5. (Para 6 Line 4-6)  But if there is a tendency for men and women to shop in these different ways, then it could be explained in terms of our hunter-gatherer past. 
+- 不过，如果说男性和女性倾向于以不同的方式购物，这种倾向或许可以用我们狩猎采集的历史来解释。
+
+6. (Para. 7, Line 4-7)  They found that women “scored higher on skills and behaviors associated with gathering－even though the environment and the objects being gathered have changed                           with respect to our ancestral environment.”
+- 他们发现，女性“在和采集相关的技能和行为上得分更高…… 尽管相较于我们                          远古的环境，不管是环境还是采集的对象都已经发生了变化。”
+ 
+7. (Para. 8, Line 2-3)  You can always use the excuse that you can’t helping liking (or not liking ) shopping, because you inherited those instincts from our prehistoric past.
+- 你可以总是以此为借口，说你不由自主地喜欢（或者不喜欢）购物，因为你从人类的远古经历中遗传了那些本能。
+ 
+8. (Para. 9, Line 2-4)  I’m not saying that we should stop shopping, but perhaps we should shop in a more sensible way and bring our buying more in line with our needs than our desires.  
+- 我并不是说我们应当停止购物，我的意思是也许我们应该更加理性地购物，应该                         按需购买，而不是根据欲望购买。
+
+9. (Para. 1, Line 7-9) It has been commonly believed since then that women writers are excessively emotional and can only write about things like family or feeling.   
+- 此后，人们普遍认为，女性作家过于感性，因此，她们的作品仅限于家庭和情感类题材。
+ 
+10. (Para 2, Line 1-2)  Since the early 2000s, gender inequality in the culture industry — literature, music, and film — has gained much attention.  
+- 自21世纪初以来，文学、音乐和电影等文化产业中的性别不平等问题引起了众多关注。
+ 
+11. (Para 2, Line 4-8)  This number is valuable because it can track how often publications review books by women, but what they can’t track is how reviewers then treat women’s work: How they write about women and the stereotype they help to create.
+- 这一数据颇为重要，因为它可以用来对出版物中女性作品被评论的频率进行跟踪调查，但是该数据无法用来了解书评人如何评论女性创作的作品：他们如何描绘女性，如何共同构建有关性别的刻板印象。
+ 
+12. (Para. 3, Line 1-3)  We decided to analyze the contents of recent book reviews to see if men and women were written about differently when their books were under review. 
+- 我们决定分析最近的书评内容，看看针对男女作家的作品，评论方式是否有所不           同。
+ 
+13. (Para 4, Line 1-5)  Book reviewers are three or four times more likely to use words like “husband,” “marriage,” and “mother” to describe books written by women between 2000 and 2009, and nearly twice as likely to use words like “love,” “beauty,” and “children.” 
+- 2000到2009年间，在描述女性作家的作品时，书评人用“丈夫”、“婚姻”和“母亲”等词语的可能性要高两三倍，用“爱”“美丽”和“孩子”等词语的可能性要高近一倍。
+ 
+14. (Para 5, Line 9-11)  In 2014, it was reported that the book reviews in these periodicals were down to a 14 percent bias toward men, and this was regarded as a sign of improvement. 
+- 2014年，据报道称，这几家刊物书评中男性的出现频率下降，只比女性高14%，而这被视为情况好转的迹象。
+ 
+15. (Para 7, Line 1-3)  Ultimately, what’s at stake in these findings is not simply the question of how to reduce gender inequality in the world of letters, but also how we imagine and recognize such change. 
+- 从根本上来讲，这些研究结果不仅关乎如何减少文学界的性别不平等，而且关乎如何想象并认识这种变化。
+ 
+16. (Para 7, Line 8-10)  The pattern is bigger than a head count— it’s also about the patterns of ideas and words, which have proven far more enduring and unchanging than we would have thought. 
+- 性别不平等的模式不只关乎人数统计——它还关乎思维模式和语言模式，而这些要比我们原以为的更加历久不变。
+
 
