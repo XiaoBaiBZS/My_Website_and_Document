@@ -220,6 +220,7 @@
 -	frustrated 懊恼的，沮丧的
 -	validity 有效性
 -	stem 茎
+- stem from 源于
 -	switch 开关
 -	instinctive 本能的，直觉的，天性的
 -	in…mode 以…模式
